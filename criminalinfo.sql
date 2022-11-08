@@ -36,6 +36,7 @@ CREATE TABLE `info` (
   `arrDate` date NOT NULL,
   `crimeDate` date NOT NULL,
   `sex` varchar(1) NOT NULL,
+  `place` varchar(50) NOT NULL,
   `address` varchar(50) NOT NULL,
   `img` blob DEFAULT NULL,
   `more` varchar(150) NOT NULL
